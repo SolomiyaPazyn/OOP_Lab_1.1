@@ -1,16 +1,35 @@
 //////////////////////////////////////////////////////////////////////////////
 // main.cpp
 // головний файл проекту – функція main
+
 #include <iostream>
 #include "Goods.h"
 
-int main() {
-    Goods g1;
-    g1.Init(25.50, 10);
+using namespace std;
 
-    std::cout << "Price of the goods: " << g1.GetFirst() << " UAH." << std::endl;
-    std::cout << "Quantity: " << g1.GetSecond() << " pcs." << std::endl;
-    std::cout << "Total cost: " << g1.cost() << " UAH." << std::endl;
+int main() {
+    try {
+        cout << "=== Goods Class Demonstration ===" << endl;
+
+        // Створення об'єкта через зовнішню функцію makeGoods()
+        Goods g1 = makeGoods(25.5, 10);
+        g1.Display();
+
+        // Використання методів класу
+        Goods g2;
+        g2.Read();
+        g2.Display();
+
+        // Зміна значень через методи доступу
+        g2.setFirst(15.75);
+        g2.setSecond(5);
+        g2.Display();
+
+    }
+    catch (const exception& e) {
+        cerr << "Error: " << e.what() << endl;
+        return 1;
+    }
 
     return 0;
 }

@@ -3,19 +3,19 @@
   "WorkspaceRootPath": "D:\\OOP\\OOP lab 1.1\\OOP lab 1.1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CD211F66-6C80-4120-8CC9-7D9AE2DE3DDD}|OOP lab 1.1.vcxproj|D:\\OOP\\OOP lab 1.1\\OOP lab 1.1\\Goods.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{CD211F66-6C80-4120-8CC9-7D9AE2DE3DDD}|OOP lab 1.1.vcxproj|solutionrelative:Goods.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{FA8C6115-FD6B-4E4B-B596-B47B3F05EC10}|..\\UnitTest1\\UnitTest1.vcxproj|D:\\OOP\\OOP lab 1.1\\UnitTest1\\UnitTest1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CD211F66-6C80-4120-8CC9-7D9AE2DE3DDD}|OOP lab 1.1.vcxproj|D:\\OOP\\OOP lab 1.1\\OOP lab 1.1\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{CD211F66-6C80-4120-8CC9-7D9AE2DE3DDD}|OOP lab 1.1.vcxproj|solutionrelative:main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{CD211F66-6C80-4120-8CC9-7D9AE2DE3DDD}|OOP lab 1.1.vcxproj|D:\\OOP\\OOP lab 1.1\\OOP lab 1.1\\Goods.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{CD211F66-6C80-4120-8CC9-7D9AE2DE3DDD}|OOP lab 1.1.vcxproj|solutionrelative:Goods.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CD211F66-6C80-4120-8CC9-7D9AE2DE3DDD}|OOP lab 1.1.vcxproj|D:\\OOP\\OOP lab 1.1\\OOP lab 1.1\\Goods.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{CD211F66-6C80-4120-8CC9-7D9AE2DE3DDD}|OOP lab 1.1.vcxproj|solutionrelative:Goods.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FA8C6115-FD6B-4E4B-B596-B47B3F05EC10}|..\\UnitTest1\\UnitTest1.vcxproj|D:\\OOP\\OOP lab 1.1\\UnitTest1\\UnitTest1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{CD211F66-6C80-4120-8CC9-7D9AE2DE3DDD}|OOP lab 1.1.vcxproj|D:\\OOP\\OOP lab 1.1\\OOP lab 1.1\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{CD211F66-6C80-4120-8CC9-7D9AE2DE3DDD}|OOP lab 1.1.vcxproj|solutionrelative:main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -25,7 +25,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -37,39 +37,39 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "UnitTest1.cpp",
               "DocumentMoniker": "D:\\OOP\\OOP lab 1.1\\UnitTest1\\UnitTest1.cpp",
               "RelativeDocumentMoniker": "..\\UnitTest1\\UnitTest1.cpp",
               "ToolTip": "D:\\OOP\\OOP lab 1.1\\UnitTest1\\UnitTest1.cpp",
               "RelativeToolTip": "..\\UnitTest1\\UnitTest1.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADoAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-03-03T22:22:16.942Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "main.cpp",
               "DocumentMoniker": "D:\\OOP\\OOP lab 1.1\\OOP lab 1.1\\main.cpp",
               "RelativeDocumentMoniker": "main.cpp",
               "ToolTip": "D:\\OOP\\OOP lab 1.1\\OOP lab 1.1\\main.cpp",
               "RelativeToolTip": "main.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-03-03T22:19:24.452Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Goods.cpp",
               "DocumentMoniker": "D:\\OOP\\OOP lab 1.1\\OOP lab 1.1\\Goods.cpp",
               "RelativeDocumentMoniker": "Goods.cpp",
-              "ToolTip": "D:\\OOP\\OOP lab 1.1\\OOP lab 1.1\\Goods.cpp*",
-              "RelativeToolTip": "Goods.cpp*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAARAAAAAAAAAA==",
+              "ToolTip": "D:\\OOP\\OOP lab 1.1\\OOP lab 1.1\\Goods.cpp",
+              "RelativeToolTip": "Goods.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-03-03T22:18:30.023Z",
               "EditorCaption": ""
@@ -82,7 +82,7 @@
               "RelativeDocumentMoniker": "Goods.h",
               "ToolTip": "D:\\OOP\\OOP lab 1.1\\OOP lab 1.1\\Goods.h",
               "RelativeToolTip": "Goods.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAmwAcAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-03-03T22:18:00.841Z",
               "EditorCaption": ""

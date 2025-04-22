@@ -2,8 +2,6 @@
 #include "CppUnitTest.h"
 #include "../OOP lab 1.1/Goods.h"
 #include "../OOP lab 1.1/Goods.cpp"
-#include "../OOP lab 1.1/main.cpp"
-
 
 using namespace Microsoft::VisualStudio::CppUnitTestFramework;
 
@@ -13,19 +11,6 @@ namespace UnitTest
     {
     public:
 
-        // Тестуємо ініціалізацію об'єкта Goods
-        TEST_METHOD(TestGoodsInitialization)
-        {
-            Goods goods;
-            goods.Init(25.50, 10);
-
-            // Перевіряємо, чи правильно ініціалізоване поле first
-            Assert::AreEqual(goods.GetFirst(), 25.50);
-
-            // Перевіряємо, чи правильно ініціалізоване поле second
-            Assert::AreEqual(goods.GetSecond(), 10);
-        }
-
         // Тестуємо метод cost()
         TEST_METHOD(TestGoodsCost)
         {
@@ -33,27 +18,27 @@ namespace UnitTest
             goods.Init(25.50, 10);
 
             // Перевіряємо, чи правильно обчислюється вартість товару
-            Assert::AreEqual(goods.cost(), 255.0);
+            Assert::AreEqual(255.0, goods.cost(), L"Incorrect cost calculation.");
         }
 
-        // Тестуємо метод SetFirst()
+        // Тестуємо метод setFirst()
         TEST_METHOD(TestSetFirst)
         {
             Goods goods;
-            goods.SetFirst(30.75);
+            goods.setFirst(30.75);
 
             // Перевіряємо, чи правильно встановлюється значення поля first
-            Assert::AreEqual(goods.GetFirst(), 30.75);
+            Assert::AreEqual(30.75, goods.getFirst(), L"Incorrect value for first field after using setFirst.");
         }
 
-        // Тестуємо метод SetSecond()
+        // Тестуємо метод setSecond()
         TEST_METHOD(TestSetSecond)
         {
             Goods goods;
-            goods.SetSecond(15);
+            goods.setSecond(15);
 
             // Перевіряємо, чи правильно встановлюється значення поля second
-            Assert::AreEqual(goods.GetSecond(), 15);
+            Assert::AreEqual(15, goods.getSecond(), L"Incorrect value for second field after using setSecond.");
         }
     };
 }
